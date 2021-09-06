@@ -182,7 +182,6 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-  math_engine: mathjax
 
 # Sass/SCSS
 sass:
@@ -266,3 +265,10 @@ defaults:
       share: true
       related: true
       show_date: true
+
+katex:
+  js_path: "assets/js" # Path used to search for katex.min.js
+  rendering_options:
+    # Default KaTeX rendering options. See https://github.com/Khan/KaTeX#rendering-options
+    throw_error: true # throwOnError - set to false if you want rendering to output error as text rather than a build error
+    error_color: "#cc0000" # errorColor
