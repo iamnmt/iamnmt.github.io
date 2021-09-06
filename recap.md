@@ -2,6 +2,7 @@
 layout: categories
 title: "Learning recap"
 permalink: "/recap/"
+author_profile: true
 ---
 
-There is nothing here yet :D
+Những kiến thức đã tìm hiểu.
