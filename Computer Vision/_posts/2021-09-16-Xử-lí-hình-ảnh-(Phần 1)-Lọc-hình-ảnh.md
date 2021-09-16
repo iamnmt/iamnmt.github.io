@@ -10,13 +10,13 @@ toc_icon: "bars"
 
 Mục đích của bài viết là giải thích những khái niệm cơ bản trong *xử lí hình ảnh kỹ thuật số* từ đó dễ dàng hơn khi nói về *nhận diện cạnh* ở bài viết tiếp theo.
 
-Mở đầu bài viết, ta định nghĩa một cách toán học cho những khái niệm: *hình ảnh*, *lát cắt cường độ*, *bộ lọc*, *tính chập*.
+Mở đầu bài viết, ta định nghĩa một cách toán học cho những khái niệm: *hình ảnh*, *lát cắt cường độ*, *bộ lọc*, *tích chập*.
 
 Từ những khái niệm trên, ta xây dựng cách *lọc hình ảnh* và đề cập đến kỹ thuật **padding**.
 
 # Định nghĩa
 
-Ở phần này, ta sẽ đưa ra định nghĩa một cách toán học cho các khái niệm: *hình ảnh*, *lát cắt cường độ*, *bộ lọc*, *tính chập*. Việc định nghĩa một cách toán học cho các khái niệm này sẽ giúp dễ dàng trình bày hơn ở những phần sau.
+Ở phần này, ta sẽ đưa ra định nghĩa một cách toán học cho các khái niệm: *hình ảnh*, *lát cắt cường độ*, *bộ lọc*, *tích chập*. Việc định nghĩa một cách toán học cho các khái niệm này sẽ giúp dễ dàng trình bày hơn ở những phần sau.
 
 ## Hình ảnh
 
@@ -268,13 +268,13 @@ Ví dụ: Với tập xác định $$ D = \{ -1, 0, 1\} \times \{ -1, 0, 1\} $$ 
 > Tóm lại, việc định nghĩa *bộ lọc* như trên nhằm thuận tiện cho việc trình bày.
 >
 
-## Tính chập
+## Tích chập
 
-Trong bài viết chỉ sử dụng *tính chập* của hai hàm số **một biến rời rạc** và *tính chập* của hai hàm số **hai biến rời rạc** nên ta chỉ định nghĩa  *tính chập* trong hai trường hợp trên. Tính chập có thể mở rộng lên hàm số nhiều hơn hai biến và liên tục.
+Trong bài viết chỉ sử dụng *tích chập* của hai hàm số **một biến rời rạc** và *tích chập* của hai hàm số **hai biến rời rạc** nên ta chỉ định nghĩa  *tích chập* trong hai trường hợp trên. Tích chập có thể mở rộng lên hàm số nhiều hơn hai biến và liên tục.
 
 ### Ví dụ
 
-Ta sẽ dễ hiểu hơn về *tính chập* của hai hàm số qua việc tìm hiểu [ví dụ](https://www.youtube.com/watch?v=QmcoPYUfbJ8&ab_channel=Discretised) sau.
+Ta sẽ dễ hiểu hơn về *tích chập* của hai hàm số qua việc tìm hiểu [ví dụ](https://www.youtube.com/watch?v=QmcoPYUfbJ8&ab_channel=Discretised) sau.
 
 Giả sử ta có một hộp diêm. **Mỗi** que diêm sau khi được đốt sẽ tỏa khói ra ngoài không khí. Lượng khói tỏa ra ngoài không khí sẽ là hàm số $$S(t)$$ phụ thuộc vào Thời gian $$t$$
 
@@ -362,11 +362,11 @@ $$
 | :----------------------------------------------------------: |
 | *Hình 10: Đồ thị sự phụ thuộc của "Tổng lượng khói tỏa ra ngoài không khí" và "Thời gian".* |
 
-Hàm số $$g(t)$$ ta vừa tìm được còn được gọi là **Tính chập của $$f(t)$$ và $$S(t)$$**. Ký hiệu $$g(t) = f * S $$.
+Hàm số $$g(t)$$ ta vừa tìm được còn được gọi là **Tích chập của $$f(t)$$ và $$S(t)$$**. Ký hiệu $$g(t) = f * S $$.
 
-> Một cách trực quan, ta có thể hiểu, tính chập của hai hàm số là một hàm số kết hợp của hai hàm số ban đầu giúp ta theo dõi sự thay đổi của chúng theo thời gian.
+> Một cách trực quan, ta có thể hiểu, tích chập của hai hàm số là một hàm số kết hợp của hai hàm số ban đầu giúp ta theo dõi sự thay đổi của chúng theo thời gian.
 
-### Tính chập của hai hàm số một biến rời rạc
+### Tích chập của hai hàm số một biến rời rạc
 
 Xét hai hàm số một biến rời rạc:
 
@@ -381,7 +381,7 @@ f: D \subset \mathbb{Z} \rightarrow \mathbb{R} \\
 $$
 
 
-Khi này, *tính chập* của hai hàm số $$f$$ và $$\mathcal{I}$$ được định nghĩa là:
+Khi này, *tích chập* của hai hàm số $$f$$ và $$\mathcal{I}$$ được định nghĩa là:
 
 
 $$
@@ -390,7 +390,7 @@ $$
 \end{equation}
 $$
 
-### Tính chập của hai hàm số hai biến rời rạc
+### Tích chập của hai hàm số hai biến rời rạc
 
 Xét hai hàm số hai biến rời rạc:
 
@@ -405,7 +405,7 @@ f: H \times W \subset \mathbb{Z}^2 \rightarrow \mathbb{R}  \\
 $$
 
 
-Khi này, *tính chập* của hai hàm số $$f$$ và $$\mathcal{I}$$ được định nghĩa là:
+Khi này, *tích chập* của hai hàm số $$f$$ và $$\mathcal{I}$$ được định nghĩa là:
 
 
 $$
@@ -416,11 +416,11 @@ $$
 
 ### Lưu ý
 
-Cách định nghĩa *tính chập* như trên có phần không chặt chẽ vì sẽ có một vài vị trị hàm số $$\mathcal{I}$$ không xác định. Hạn chế này sẽ được nói rõ hơn ở những phần sau.
+Cách định nghĩa *tích chập* như trên có phần không chặt chẽ vì sẽ có một vài vị trị hàm số $$\mathcal{I}$$ không xác định. Hạn chế này sẽ được nói rõ hơn ở những phần sau.
 
 # Lọc lát cắt cường độ và hình ảnh
 
-Khi đã có những định nghĩa về: *hình ảnh*, *bộ lọc*, *tính chập*; ta sẽ tìm hiểu về khái niệm *lọc hình ảnh*. Nhưng trước khi thực hiện lọc trên *hình ảnh* thật (hình ảnh 2 chiều), sẽ dễ hiểu hơn khi ta tim hiểu về lọc *lát cát cường độ* (hình ảnh 1 chiều).
+Khi đã có những định nghĩa về: *hình ảnh*, *bộ lọc*, *tích chập*; ta sẽ tìm hiểu về khái niệm *lọc hình ảnh*. Nhưng trước khi thực hiện lọc trên *hình ảnh* thật (hình ảnh 2 chiều), sẽ dễ hiểu hơn khi ta tim hiểu về lọc *lát cát cường độ* (hình ảnh 1 chiều).
 
 ## Lọc lát cắt cường độ
 
@@ -440,7 +440,7 @@ f: D = \{a_1, a_2,...,a_n\} \subset \mathbb{Z} \rightarrow \mathbb{R}
 $$
 
 
-Khi này, hành động *lọc lát cắt cường độ* $$\mathcal{P}$$ bằng *bộ lọc* $$f$$ được hiểu là, ta sẽ tính *tính chập* của hai hàm số trên:
+Khi này, hành động *lọc lát cắt cường độ* $$\mathcal{P}$$ bằng *bộ lọc* $$f$$ được hiểu là, ta sẽ tính *tích chập* của hai hàm số trên:
 
 
 $$
@@ -587,7 +587,7 @@ f:\{a_1,a_2,...,a_m\} \times \{b_1,b_2,...,b_n\} \subset \mathbb{Z}^2 \rightarro
 $$
 
 
-Khi này, hành động *lọc hình ảnh* $$\mathcal{I}$$ bằng *bộ lọc* $$f$$ được hiểu là, ta sẽ tính *tính chập* của hai hàm số trên:
+Khi này, hành động *lọc hình ảnh* $$\mathcal{I}$$ bằng *bộ lọc* $$f$$ được hiểu là, ta sẽ tính *tích chập* của hai hàm số trên:
 
 
 $$
@@ -733,7 +733,7 @@ Hiện tượng trên xảy ra là do cách chọn bộ lọc $$f = \frac{1}{16}
 
 ## Lưu ý
 
-Lọc *lát cắt cường độ* và *hình ảnh* bằng cách tính *tính chập* của hai hàm số là cách làm được công nhận và sử dụng rộng rãi thế nhưng trong khoảng 20 năm trở lại đây với sự trở lại của những hệ thống học sâu, các bài viết về học sâu thường sử dụng cách thức khác để lọc *hình ảnh*. Đó là sử dụng **tương quan chéo**
+Lọc *lát cắt cường độ* và *hình ảnh* bằng cách tính *tích chập* của hai hàm số là cách làm được công nhận và sử dụng rộng rãi thế nhưng trong khoảng 20 năm trở lại đây với sự trở lại của những hệ thống học sâu, các bài viết về học sâu thường sử dụng cách thức khác để lọc *hình ảnh*. Đó là sử dụng **tương quan chéo**
 
 Xét hai hàm số hai biến rời rạc:
 
@@ -756,13 +756,13 @@ $$
 $$
 
 
-Một cách thao tác, ta có thể hiểu cách tính **tương quan chéo** của hai hàm số tương tự như cách tính **tính chập** của hai hàm số, ngoại trừ việc ta không thực hiện bước "quay *bộ lọc* một góc $$180^o$$" khi tính **tương quan chéo**.
+Một cách thao tác, ta có thể hiểu cách tính **tương quan chéo** của hai hàm số tương tự như cách tính **tích chập** của hai hàm số, ngoại trừ việc ta không thực hiện bước "quay *bộ lọc* một góc $$180^o$$" khi tính **tương quan chéo**.
 
-Một điều kỳ lạ là trong những bài viết về học sâu, họ tính **tương quan chéo** giữa hai hàm số nhưng vẫn gọi đó là tính **tính chập** của hai hàm số nên có thể gây khó hiểu cho người đọc.
+Một điều kỳ lạ là trong những bài viết về học sâu, họ tính **tương quan chéo** giữa hai hàm số nhưng vẫn gọi đó là tính **tích chập** của hai hàm số nên có thể gây khó hiểu cho người đọc.
 
-Ở đây, ta định nghĩa việc *lọc hình ảnh* là tính **tính chập** của hai hàm số.
+Ở đây, ta định nghĩa việc *lọc hình ảnh* là tính **tích chập** của hai hàm số.
 
-> Lời giải thích cho việc tại sao người viết hay sử dụng **tương quan chéo** thay vì **tính chập** trong những bài viết về học sâu có thể là. Trong các hệ thống học sâu, các *bộ lọc* sẽ được chính hệ thống học sâu cập nhật và cải thiện, nên không quan trọng lựa chọn cách thức nào thì các hệ thống học sâu vẫn tìm ra được *bộ lọc* tối ưu. Bên cạnh đó, việc bỏ qua bước "quay bộ lọc một góc $$180^o$$" sẽ giúp người đọc dễ theo dõi hơn.
+> Lời giải thích cho việc tại sao người viết hay sử dụng **tương quan chéo** thay vì **tích chập** trong những bài viết về học sâu có thể là. Trong các hệ thống học sâu, các *bộ lọc* sẽ được chính hệ thống học sâu cập nhật và cải thiện, nên không quan trọng lựa chọn cách thức nào thì các hệ thống học sâu vẫn tìm ra được *bộ lọc* tối ưu. Bên cạnh đó, việc bỏ qua bước "quay bộ lọc một góc $$180^o$$" sẽ giúp người đọc dễ theo dõi hơn.
 >
 
 # Padding
@@ -938,7 +938,7 @@ Bài viết trên mục đích chính là đưa ra những khái niệm cơ bả
 | Siêu phổ                   | Hyperspectral            |
 | Thang độ xám               | Greyscale                |
 | Thang màu                  | Color scale              |
-| Tính chập                  | Convolution              |
+| Tích chập                  | Convolution              |
 | Tương quan chéo            | Cross-Correlation        |
 | Xử lí hình ảnh kĩ thuật số | Digital image processing |
 
