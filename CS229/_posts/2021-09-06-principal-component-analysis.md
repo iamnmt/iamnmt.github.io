@@ -3,7 +3,7 @@ author_profile: true
 toc: true
 toc_label: "Mục lục"
 toc_icon: "bars"
-title: Principal component analysis
+title: Principal Component Analysis
 ---
 
 # Tóm tắt
