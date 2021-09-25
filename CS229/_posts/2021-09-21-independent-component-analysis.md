@@ -167,12 +167,22 @@ $$
 \begin{aligned}
 \frac{\partial} {\partial A_{kl}} \left| A \right| &= \frac{\partial} {\partial A_{kl}} \sum_{i=1}^{d}(-1)^{i+j} A_{ij} \left| A_{/i,/j}\right| \quad (\forall \; j \in \{1, 2,...,d\}) \\
 &= (-1)^{k +l} \left | A_{/k,/l} \right| \\
-&= (\text{adj}(A))_{lk} \\
-&= (\text{adj}(A))^T \\
+&= (\text{adj}(A))_{lk} 
+\end{aligned}
+$$
+
+
+Do đó:
+
+
+$$
+\begin{aligned}
+\frac{\partial}{\partial A} \left| A\right| &= (\text{adj}(A))^T \\
 &= (A^{-1} \left| A \right|)^T \\
 &= \left| A \right| A^{-T} & \blacksquare
 \end{aligned}
 $$
+
 
 
 # Mô hình toán học
