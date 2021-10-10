@@ -62,7 +62,7 @@ x =
 \text{a} \\
 \text{above}\\
 \vdots \\
-\text{tree}\\
+\text{sec}\\
 \vdots\\
 \\
 \end{array}
