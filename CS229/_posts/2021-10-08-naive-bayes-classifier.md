@@ -568,7 +568,7 @@ Chuyển tin nhắn về vector $$x \in \{0, 1\}^d$$. Cụ thể hơn, ở đây
 
 ## Method fit(X, Y)
 
-```
+```python
 def fit(self, X, Y):
         '''
         Input: 
