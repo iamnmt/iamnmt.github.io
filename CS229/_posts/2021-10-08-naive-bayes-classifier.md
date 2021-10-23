@@ -256,9 +256,9 @@ Theo cách ta *xây dựng điểm dữ liệu* thì hai tin nhắn trên là m�
 
 Ở phần này, ta sẽ tìm công thức của các tham số $$ \phi, \phi_{j\vert Y=1}, \phi_{j\vert Y=0}$$ bằng phương pháp ước lượng hợp lí cực đại.
 
-## Xây dựng hàm Log-likelihood
+## Xây dựng hàm Log-likelihood hợp
 
-Trước nhất, ta sẽ xây dựng hàm Log-likelihood của tập dữ liệu:
+Trước nhất, ta sẽ xây dựng hàm Log-likelihood hợp của tập dữ liệu:
 
 
 $$
