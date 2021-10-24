@@ -236,7 +236,7 @@ $$
 \frac{\partial}{\partial \eta} a(\eta) &= \int_{\mathcal{Y}} T(y) b(y)  \exp(\eta \; T(y) - a(\eta))dy \\
 \implies \frac{\partial^2}{\partial \eta^2} a(\eta) &= \frac{\partial}{\partial \eta} \int_{\mathcal{Y}} T(y) b(y)  \exp(\eta \; T(y) - a(\eta)) dy \\
 &=\int_{\mathcal{Y}} T(y) b(y)  \exp(\eta \; T(y) - a(\eta)) \left(T(y) - \frac{\partial}{\partial \eta} a(\eta)\right)dy \\ 
-&=\int_{\mathcal{Y}} T(y)^2 b(y)  \exp(\eta \; T(y) - a(\eta)) - \frac{\partial}{\partial \eta} a(\eta) \int_{\mathcal{Y}} T(y) b(y)  \exp(\eta \; T(y) - a(\eta)) \\
+&=\int_{\mathcal{Y}} T(y)^2 b(y)  \exp(\eta \; T(y) - a(\eta))dy - \frac{\partial}{\partial \eta} a(\eta) \int_{\mathcal{Y}} T(y) b(y)  \exp(\eta \; T(y) - a(\eta))dy \\
 &= \mathbb{E}[T(Y)^2; \eta] - \frac{\partial}{\partial \eta} a(\eta) \mathbb{E}[T(Y); \eta] \\
 &= \mathbb{E}[T(Y)^2; \eta] - \mathbb{E}[T(Y); \eta]^2 \\
 &= \text{Cov}(T(Y); \eta)
@@ -380,7 +380,7 @@ Ta cập nhật tham số $$\theta$$ bằng công thức:
 
 $$
 \begin{equation}
-\theta := \theta + \alpha \sum_{i = 1}^n x^{(i)}(y^{(i)} - \theta^Tx)
+\theta := \theta + \alpha \sum_{i = 1}^n x^{(i)}(y^{(i)} - \theta^Tx^{(i)})
 \end{equation}
 $$
 
@@ -391,7 +391,7 @@ $$
 $$
 \begin{equation}
 h(x_0; \theta) = \theta^T x_0
-\end{equation}
+\end{equation}
 $$
 
 
@@ -437,7 +437,7 @@ Ta cập nhật tham số $$\theta$$ bằng công thức:
 
 $$
 \begin{equation}
-\theta := \theta + \alpha \sum_{i = 1}^n x^{(i)}\left(y^{(i)} - \frac{1}{1+e^{-\theta^Tx}}\right)
+\theta := \theta + \alpha \sum_{i = 1}^n x^{(i)}\left(y^{(i)} - \frac{1}{1+e^{-\theta^Tx^{(i)}}}\right)
 \end{equation}
 $$
 
@@ -448,7 +448,7 @@ $$
 $$
 \begin{equation}
 h(x_0; \theta) = \frac{1}{1+e^{-\theta^Tx_0}}
-\end{equation}
+\end{equation}
 $$
 
 
@@ -551,7 +551,7 @@ h(x; \theta) &= \frac{\partial}{\partial \eta} a(\eta) = \frac{\partial}{\partia
 \vdots \\
 \exp({\theta_k^T x}) / \sum_{i=1}^{k+1} \exp({\theta_i^T x}) \\
 \end{bmatrix}
-\end{aligned}
+\end{aligned}
 $$
 
 
@@ -576,12 +576,12 @@ Ta cập nhật tham số $$\theta$$ bằng công thức:
 
 $$
 \begin{equation}
-\theta := \theta + \alpha \sum_{i=1}^n x^{(i)^T} \left(y^{(i)} - \begin{bmatrix}
-\exp({\theta_1^T x}) / \sum_{i=1}^{k+1} \exp({\theta_i^Tx}) \\
-\exp({\theta_2^T x}) / \sum_{i=1}^{k+1} \exp({\theta_i^Tx}) \\
+\theta := \theta + \alpha \sum_{i=1}^n x^{(i)} \left(y^{(i)} - \begin{bmatrix}
+\exp({\theta_1^T x^{(i)}}) / \sum_{i=1}^{k+1} \exp({\theta_i^Tx^{(i)}}) \\
+\exp({\theta_2^T x^{(i)}}) / \sum_{i=1}^{k+1} \exp({\theta_i^Tx^{(i)}}) \\
 \vdots \\
-\exp({\theta_k^T x}) / \sum_{i=1}^{k+1} \exp({\theta_i^T x}) \\
-\end{bmatrix}  \right)
+\exp({\theta_k^T x^{(i)}}) / \sum_{i=1}^{k+1} \exp({\theta_i^T x^{(i)}}) \\
+\end{bmatrix}  \right)^T
 \end{equation}
 $$
 
@@ -597,7 +597,7 @@ h(x_0; \theta) =\begin{bmatrix}
 \vdots \\
 \exp({\theta_k^T x_0}) / \sum_{i=1}^{k+1} \exp({\theta_i^T x_0}) \\
 \end{bmatrix}
-\end{equation}
+\end{equation}
 $$
 
 
