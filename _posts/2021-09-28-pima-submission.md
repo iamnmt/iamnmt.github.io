@@ -33,7 +33,14 @@ Cuối cùng, ta sẽ mở rộng phân phối chuẩn trong không gian 2-chi�
 
 # Kiến thức yêu cầu (trang 1)
 
-Để hiểu nội dung bài viết các bạn cần biết về những khái niệm trong xác suất thống kê như sau:
+Trước tiên, ta sẽ tóm tắt qua những kiến thức xác suất thống kê được sử dụng trong bài viết:
+
+- Biến ngẫu nhiên là một hàm số đi từ không gian sự kiện đến tập hợp số thực. Hàm số này sẽ gán giá trị cho kết quả của một phép thử ngẫu nhiên.
+- Kỳ vọng của một biến ngẫu nhiên là trung bình có trọng số của tất cả các giá trị có thể nhận được của biến ngẫu nhiên đó.
+- Phương sai của một biến ngẫu nhiên thể hiện mức độ phân tán của biến ngẫu nhiên đó. Ngoài ra, phương sai còn thể hiện các giá trị cụ thể của biến ngẫu nhiên cách kỳ vọng bao xa.
+- Hàm mật độ xác suất thể hiện mức độ tập trung xác suất xung quanh một giá trị cụ thể của biến ngẫu nhiên liên tục.
+
+
 
 ![image-center](../assets/post_img/pima_submission/h1.png)
 
@@ -49,8 +56,9 @@ Qua khảo sát trên, ta có nhận xét:
 
 - Phân phối của chiều cao các bạn có dạng hình cong, đường cong này thường được gọi là đường cong chuông.
 - Chiều cao trung bình của các bạn khoảng: 170cm.
-- Nhiều bạn học sinh có chiều cao gần chiều cao trung bình (Hình chữ nhật màu xanh).
-- Ít bạn học sinh có chiều cao xa với chiều cao trung bình (Hình chữ nhật màu đỏ).
+- Độ lệch chuẩn của chiều cao khoảng: 4cm.
+- Nhiều bạn học sinh có chiều cao trong khoảng từ 166cm đến 174cm (Hình chữ nhật màu xanh).
+- Ít bạn học sinh có chiều cao ngoài khoảng từ 166cm đến 174cm (Hình chữ nhật màu đỏ).
 
 
 <iframe width="960" height="540" src="../assets/post_video/pima_submission/v2.mp4" frameborder="0" allowfullscreen></iframe>
