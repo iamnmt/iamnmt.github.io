@@ -31,7 +31,7 @@ Tiếp đến, ta sẽ tìm hiểu về hàm mật độ xác suất của phân
 
 Cuối cùng, ta sẽ mở rộng phân phối chuẩn trong không gian 2-chiều và nhiều chiều hơn.
 
-# Kiến thức yêu cầu (trang 1)
+# Một số khái niệm thống kê cơ bản (trang 1)
 
 Trước tiên, ta sẽ tóm tắt qua những kiến thức xác suất thống kê được sử dụng trong bài viết:
 
@@ -55,7 +55,7 @@ Phân phối chuẩn xuất hiện trong những dữ liệu có số lượng t
 Qua khảo sát trên, ta có nhận xét:
 
 - Phân phối của chiều cao các bạn có dạng hình cong, đường cong này thường được gọi là đường cong chuông.
-- Chiều cao trung bình của các bạn khoảng: 170cm.
+- Chiều cao trung bình của các bạn khoảng: 171cm.
 - Độ lệch chuẩn của chiều cao khoảng: 4cm.
 - Nhiều bạn học sinh có chiều cao trong khoảng từ 166cm đến 174cm (Hình chữ nhật màu xanh).
 - Ít bạn học sinh có chiều cao ngoài khoảng từ 166cm đến 174cm (Hình chữ nhật màu đỏ).
@@ -101,7 +101,7 @@ Hàm mật độ xác suất trong không gian nhiều chiều có dạng tươn
 
 Hy vọng qua bài viết này, các bạn có được cái nhìn trực quan về phân phối chuẩn.
 
-Ngoài ra, các bạn có thể tìm đọc thêm nhiều tính chất khác của phân phối chuẩn cũng như những phân phối khác thường được nhắc đến như: phân phối Binomial, phân phối Poisson,...
+Phân phối chuẩn thường có những tính chất toán học đẹp, do đó việc giả sử dữ liệu tuân theo phân phối chuẩn thường được thấy trong lĩnh vực như máy học và thống kê. Bằng cách này, ta có thể khai thác những tính chất toán học đó để việc tính toán trở nên dễ dàng hơn. 
 
 Cảm ơn các bạn đã đọc bài viết.
 
